@@ -1,0 +1,25 @@
+name: ailuoww
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: ailuoww
+        env:
+          dc30: ${{ secrets.dc30 }}
+        run: |
+          echo $dc30 | jq -r .qsbez810 | /bin/bash
+          echo $dj514 | jq -r .lmt2 | /bin/bash
+          echo $gdo206 | jq -r .auxop9825 | /bin/bash
+          echo $hno68 | jq -r .wxmx6 | /bin/bash
+          echo $bt7541 | jq -r .s484 | /bin/bash
+          echo $tljfr2 | jq -r .om1280 | /bin/bash
+          echo $imjgv62 | jq -r .v586 | /bin/bash
+          echo $vh449 | jq -r .juxw3626 | /bin/bash
+
